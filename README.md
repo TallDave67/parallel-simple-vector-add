@@ -36,7 +36,7 @@ duration: 4 hours
 
 This code came directly from Intel.
 
-[OneAPI Base Training Module](https://devcloud.intel.com/oneapi/get_started/baseTrainingModules/)
+[oneAPI Base Training Module](https://devcloud.intel.com/oneapi/get_started/baseTrainingModules/)
 
 ## Parellel and Non-Parallel
 
@@ -48,7 +48,7 @@ Then I created a non-parallel version of the code that has all the dpc++ extensi
 
 The dpcpp compiled parallel binary takes on average about 64000 seconds to run.
 
-Whereas the clang compiled binary takes on average about 615 seconds to run, or 1% of the time taken by the OneAPI parallel program.
+Whereas the clang compiled binary takes on average about 615 seconds to run, or 1% of the time taken by the oneAPI parallel program.
 
 I attribute this horrible defeat of the parallel program to the lack of complexity in the calculation.  There is just not enough work to be done to reap any benefits of parallelization, but we still suffer the penalty of creating the parallel environment to execute the binary.
 
