@@ -40,7 +40,7 @@ This code came directly from Intel.
 
 I modified the original Intel code to use std::vector instead of a C array.
 
-Oleksandr Karaberov showed me how to initialize a numeric array using std::iota.
+Oleksandr Karaberov showed me how to initialize a numeric std::vector (or any container that supports iteration) using std::iota.
  
 [Initialize with STL algorithms](https://stackoverflow.com/questions/17694579/use-stdfill-to-populate-vector-with-increasing-numbers)
 
