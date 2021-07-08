@@ -38,7 +38,7 @@ This code came directly from Intel.
 
 [oneAPI Base Training Module](https://devcloud.intel.com/oneapi/get_started/baseTrainingModules/)
 
-## Parellel
+### Parellel
 
 I modified the original Intel code to use std::vector instead of a C array.
 
@@ -48,7 +48,7 @@ I placed this in my .bashrc file so the dpcpp compiler can be found.
 
 > [ -s "$ONEAPI_DIR/setvars.sh" ] && \. "$ONEAPI_DIR/setvars.sh"  # initialize oneAPI environment
 
-## Non-Parallel
+### Non-Parallel
 
 The non-parallel version of the code has all the dpc++ extensions removed.
 
