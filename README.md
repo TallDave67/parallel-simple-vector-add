@@ -1,6 +1,6 @@
 # Parallel: Simple Vector Add (DPC++)
 
-This project marks the beginning of my journey to learn Intel's OneAPI DPC++.
+This project marks the beginning of my journey to learn Intel's oneAPI DPC++.
 
 Linux distro "Pop!_OS 21.04"
 
