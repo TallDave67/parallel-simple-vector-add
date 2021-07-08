@@ -45,6 +45,7 @@ I modified the original Intel code to use std::vector instead of a C array.
 I placed this in my .bashrc file so the dpcpp compiler can be found.
 
 export ONEAPI_DIR="/opt/intel/oneapi"
+
 [ -s "$ONEAPI_DIR/setvars.sh" ] && \. "$ONEAPI_DIR/setvars.sh"  # initialize oneAPI environment
 
 ## Non-Parallel
