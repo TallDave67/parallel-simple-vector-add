@@ -44,7 +44,7 @@ Oleksandr Karaberov showed me how to initialize a numeric std::vector (or any co
  
 [Initialize with STL algorithms](https://stackoverflow.com/questions/17694579/use-stdfill-to-populate-vector-with-increasing-numbers)
 
-Olivier Li helped me with my timing code to check performance.
+Olivier Li showed me how to time code to microsecond accuracy for performance checking.
 
 [Timing with Chrono](https://stackoverflow.com/questions/21856025/getting-an-accurate-execution-time-in-c-micro-seconds)
 
