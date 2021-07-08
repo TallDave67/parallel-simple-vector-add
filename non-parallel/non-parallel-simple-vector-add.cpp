@@ -4,6 +4,9 @@
 // SPDX-License-Identifier: MIT
 // =============================================================
 
+// The original Intel code has been modified by David Bellis in 2021
+// And all dpc++ extensions have been removed
+
 #include <iostream>
 #include <exception>
 

@@ -4,6 +4,8 @@
 // SPDX-License-Identifier: MIT
 // =============================================================
 
+// The original Intel code has been modified by David Bellis in 2021
+
 #include <CL/sycl.hpp>
 using namespace sycl;
 
