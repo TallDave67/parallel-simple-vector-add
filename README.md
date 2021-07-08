@@ -38,9 +38,17 @@ This code came directly from Intel.
 
 [oneAPI Base Training Module](https://devcloud.intel.com/oneapi/get_started/baseTrainingModules/)
 
-### Parellel
-
 I modified the original Intel code to use std::vector instead of a C array.
+
+Oleksandr Karaberov showed me how to initialize a numeric array using std::iota.
+ 
+[Initialize with STL algorithms](https://stackoverflow.com/questions/17694579/use-stdfill-to-populate-vector-with-increasing-numbers)
+
+Olivier Li helped me with my timing code to check performance.
+
+[Timing with Chrono](https://stackoverflow.com/questions/21856025/getting-an-accurate-execution-time-in-c-micro-seconds)
+
+### Parellel
 
 I placed this in my .bashrc file so the dpcpp compiler can be found.
 
