@@ -48,7 +48,7 @@ Olivier Li showed me how to time code to microsecond accuracy for performance ch
 
 [Timing with Chrono](https://stackoverflow.com/questions/21856025/getting-an-accurate-execution-time-in-c-micro-seconds)
 
-### Parallel
+### Parallel Compilation
 
 I placed this in my .bashrc file so the dpcpp compiler can be found.
 
