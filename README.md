@@ -12,6 +12,14 @@ Ubuntu clang version 11.0.0-2 for non-parallel binary
 
 ## Steps
 
+### Parallel
+
+*I placed this in my .bashrc file so the dpcpp compiler can be found.*
+
+> *export ONEAPI_DIR="/opt/intel/oneapi"*
+
+> *[ -s "$ONEAPI_DIR/setvars.sh" ] && \. "$ONEAPI_DIR/setvars.sh"  # initialize oneAPI environment*
+
 cd oneapi
 
 ./build.sh
@@ -19,6 +27,8 @@ cd oneapi
 ./build/simple-vector-add
 
 ### Non-Parallel
+
+*The non-parallel version of the code has all the dpc++ extensions removed.*
 
 cd non-parallel
 
@@ -47,18 +57,6 @@ Oleksandr Karaberov showed me how to initialize a numeric std::vector (or any co
 Olivier Li showed me how to time code to microsecond accuracy for performance checking.
 
 [Timing with Chrono](https://stackoverflow.com/questions/21856025/getting-an-accurate-execution-time-in-c-micro-seconds)
-
-### Parallel Compilation
-
-I placed this in my .bashrc file so the dpcpp compiler can be found.
-
-> export ONEAPI_DIR="/opt/intel/oneapi"
-
-> [ -s "$ONEAPI_DIR/setvars.sh" ] && \. "$ONEAPI_DIR/setvars.sh"  # initialize oneAPI environment
-
-### Non-Parallel
-
-The non-parallel version of the code has all the dpc++ extensions removed.
 
 ## Output
 
